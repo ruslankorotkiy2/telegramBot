@@ -34,8 +34,6 @@
 	$response = array(
 		'chat_id' => $chat_id,
 		'text' => $text,
-		//'text' => json_encode($data),
-		//'text' => json_encode($response2, JSON_PRETTY_PRINT),
 		'reply_markup' => json_encode($m)
 	);	
 	
