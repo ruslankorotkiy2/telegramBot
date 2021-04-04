@@ -39,7 +39,7 @@
 	eCurl('/sendMessage', $response);
 	operator($chat_id, $message_id);
 		
-	//функцие пересылки сообщения оператору
+	//функция пересылки сообщения оператору
     function operator($chat_id, $message_id)
 	{
 		$response2 = array(
